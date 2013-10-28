@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Users
  *
- * @ORM\Table()
+ * @ORM\Table(name="wp_users")
  * @ORM\Entity(repositoryClass="front4wp\baseBundle\Entity\UsersRepository")
  */
 class Users
