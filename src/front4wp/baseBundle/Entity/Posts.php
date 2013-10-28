@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Posts
  *
- * @ORM\Table()
+ * @ORM\Table(name="wp_posts")
  * @ORM\Entity(repositoryClass="front4wp\baseBundle\Entity\PostsRepository")
  */
 class Posts
@@ -15,7 +15,7 @@ class Posts
     /**
      * @var integer
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="ID", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
