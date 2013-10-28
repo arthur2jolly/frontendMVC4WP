@@ -7,15 +7,15 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Usermate
  *
- * @ORM\Table()
+ * @ORM\Table(name="wp_usermeta")
  * @ORM\Entity(repositoryClass="front4wp\baseBundle\Entity\UsermateRepository")
  */
-class Usermate
+class Usermeta
 {
     /**
      * @var integer
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="umeta_id", type="bigint")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */

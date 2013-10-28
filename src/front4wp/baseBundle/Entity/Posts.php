@@ -15,7 +15,7 @@ class Posts
     /**
      * @var integer
      *
-     * @ORM\Column(name="ID", type="integer")
+     * @ORM\Column(name="ID", type="bigint")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */

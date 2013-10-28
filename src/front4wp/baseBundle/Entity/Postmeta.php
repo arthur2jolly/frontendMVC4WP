@@ -15,7 +15,7 @@ class Postmeta
     /**
      * @var integer
      *
-     * @ORM\Column(name="meta_id", type="integer")
+     * @ORM\Column(name="meta_id", type="bigint")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
