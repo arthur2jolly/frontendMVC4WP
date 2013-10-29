@@ -17,4 +17,10 @@
         </service>
     </services>
     -->
+
+    <services>
+        <service id="front4wp.twig.front4wp_extension" class="front4wp\baseBundle\Twig\front4wpExtension">
+            <tag name="twig.extension" />
+        </service>
+</services>
 </container>

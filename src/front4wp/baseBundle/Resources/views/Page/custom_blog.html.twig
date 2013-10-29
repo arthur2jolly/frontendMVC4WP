@@ -1,0 +1,6 @@
+{% include '::base.html.twig' %}
+
+<h1>{{ name.postTitle }}</h1>
+<h2>{{ name.id }}</h2>
+<p>{{ data }}</p>
+{{ name.postContent|nl2p|raw }}
